@@ -1,0 +1,54 @@
+ES Definition of Done (DoD) - v1 Sep 2024
+General DoD
+	1. Code is reviewed and merged
+	2. Results are accessible from the ticket
+	3. Codename CI (including unittests) is passing
+	4. Acceptance criteria fully satisfied
+	5. Documented in the right location:
+		○ Doxygen, Code
+		○ ProtocolSpec
+		○ wiki/confluence
+		○ PUM, ESHDocs
+		○ Jira, Jama
+	6. Tested appropriately and fully, other platforms are considered
+	7. Tests for the feature created and documented:
+		○ HDL/HWSW tests
+		○ unittests
+	8. Closing comment put in JIRA
+
+Bug Fix DoD
+	1. Understand if it is really for ES or a Codename Master Issue (CMI)
+	2. Inform appropriate team who created the ticket
+	3. Steps to reproduce are in the ticket, issue reproduced
+	4. Root cause is found and fixed/documented
+	5. Tests to ensure the bug fix is correctly addressed (smoke, desk, unit, etc.)
+
+Verification and Bring-up DoD
+	1. Test steps fully defined and up-to-date (Jira, etc.)
+	2. Test results documented with clear conclusion (Jira, etc.)
+	3. Test should be easy to run with simple steps (else create a new test)
+
+Release DoD (Applicable for ROM/FW releases, licenses, patches)
+	1. Release database updated (for ROM, FW, patches)
+	2. Release snapshot (for ROM, FW) and artifacts are on Whale
+	3. Branch is created and documented (for ROM, FW)
+	4. Internal release notes updated on Whale/ESHDocs/wiki
+	5. Feature(s) fully tested and results documented (ROM, FW, patch)
+
+Investigation/Concept Work DoD
+	1. Include sources where the information was retrieved/found
+	2. Peer-reviewed, approved by stakeholders
+	3. Conclusion documented (Jira, wiki, confluence, concept doc, etc.) and is accessible for possible audiences and stakeholders
+	4. Additional "to be done" work tickets created if needed
+
+Tool Update DoD (Applicable for u-center, OTPHtmlTool, Ctools, etc.)
+	1. Smoke tested, with HW if appropriate
+	2. CI/tests pass if available
+	3. User interface and usability considered
+	4. Deployment is updated (manually if no CD)
+	5. Other use-cases of the tool are considered and tested
+
+RMA DoD
+	1. Root cause is found, steps to reproduce are described
+	2. Stakeholders (Customer, AE, etc.) are satisfied with findings
+	3. Follow-up ticket created to prevent issue from happening in the future, if possible
